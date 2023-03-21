@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+#------------------------------#
+#---[BASE DE DATO PRODUCION]---#
+#------------------------------#
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/platzi-market
+    username: postgres
+    password: admin
